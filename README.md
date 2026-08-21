@@ -1,6 +1,5 @@
-# devweekend_LangChain
-
-This repository contains LangChain code-along notes covering 5+ chain types, built as part of a devweekend session.
+# LangChain Types
+ 
 
 ## Project Structure
 
@@ -42,13 +41,6 @@ docs/           # Additional documentation
 5. **LangChain vs Raw API** (`src/utils/api-comparison.ts`)
    - Know when to use LangChain: prompt management, chains, memory, tool integration, type safety, debugging, testing
    - Know when raw API calls: minimal dependencies, maximum control, trivial operations
-
-## Acceptance Criteria
-
-- [x] Build a retrieval chain using LangChain and a vector store ✅
-- [x] Use LangChain memory to maintain conversation context ✅
-- [x] Connect a document loader and text splitter in a pipeline ✅
-- [x] Know when to use LangChain vs writing raw API calls ✅
 
 ## Getting Started
 
